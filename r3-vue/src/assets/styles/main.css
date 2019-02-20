@@ -1,0 +1,14 @@
+#divAssetMix {
+    margin: 40px 0 0;
+     background-color: #2874A6;
+     color: whitesmoke;
+   }
+
+
+   div.title-bar {
+    font-size: 120%;
+    line-height: 140%;
+    position: relative;
+    margin-top: 90px;
+    height: auto;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "r3app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/v-chart-plugin": "^0.2.0",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "material-icons": "^0.2.3",
+    "v-chart-plugin": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
+    "vue-chartjs-typescript": "^3.3.3",
+    "vue-class-component": "^6.3.2",
+    "vue-google-charts": "^0.3.2",
+    "vue-property-decorator": "^7.2.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.3.15",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "@mdi/font": "^3.2.89",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-typescript": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-runtime": "^6.26.0",
+    "echarts": "^4.2.0-rc.2",
+    "material-design-icons-iconfont": "^4.0.3",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "typescript": "^3.0.0",
+    "v-charts": "^1.19.0",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-echarts": "^3.1.3",
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.0.5"
+  }
+}
