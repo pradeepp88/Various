@@ -1,0 +1,16 @@
+
+
+<h1>{{ title }} </h1>   <!--interpolation - works well for dynamic values - div, span to render text -->
+<h2 > {{title}}</h2>  <!-- much more noisy, DOM but not in HTML --> 
+<img [src]="imageUrl" />   <!-- property binding  - (one way binding to component) -->
+
+
+<br/>
+
+<!-- npm install bootstrap --save, import in style.css -->
+<!-- class binding-->
+<button class="btn btn-primary" [class.active]="isActive">Save</button>
+<!-- style binding - HTML DOM Style Object - w3-->
+<button [style.backgroundColor]="isActive ? 'blue' : 'white'" >Cancel</button>
+<br/>
+
