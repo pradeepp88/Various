@@ -9,9 +9,8 @@ import { HeroService } from '../services/hero.service';
 })
 export class HerosComponent implements OnInit {
   public selectedHero: Hero;
-  heroes:Hero[];
-  constructor(private heroService: HeroService) { 
-
+  heroes: Hero[];
+  constructor(private heroService: HeroService) {
   }
 
   onSelect(hero: Hero): void {
@@ -24,12 +23,26 @@ export class HerosComponent implements OnInit {
 
   getHeros(): void {
 
-    this.heroService.getHeros()
+    this.heroService.getHeroes()
     .subscribe(heroes => this.heroes = heroes);
 
-    this.heroService.getRepos()
+    this.heroService.getRepos();
   }
   onNotify(e): void {
     console.log('Click recieved in Parent control!');
+  }
+
+  add(name: string): void {
+    name = name.trim();
+    if (!name) { return; }
+    this.heroService.addHero({ name } as Hero)
+      .subscribe(hero => {
+        this.heroes.push(hero);
+      });
+  }
+
+  delete(hero: Hero): void {
+    this.heroes = this.heroes.filter(h => h !== hero);
+    this.heroService.deleteHero(hero).subscribe();
   }
 }
