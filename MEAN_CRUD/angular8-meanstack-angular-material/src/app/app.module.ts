@@ -10,6 +10,12 @@ import { AppRoutingModuleModule } from '../app-routing-module.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './material.module';
 
+import { HttpClientModule } from '@angular/common/http';
+/* Angular 8 CRUD services */
+import { ApiService } from '../shared/api.service';
+/* Reactive form services in Angular 8 */
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +24,15 @@ import { AngularMaterialModule } from './material.module';
     StudentsListComponent
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
     BrowserModule,
     AppRoutingModuleModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
