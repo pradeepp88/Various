@@ -3,9 +3,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var wiki = require('./wiki.js');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var catalogRouter = require('./routes/catalog'); // import routes for "catalog" area of site
 
 var app = express();
 
@@ -20,9 +22,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // serve all static files from public directory
 
+app.use('/wiki', wiki);
+
 // setup routes and router
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/catalog', catalogRouter); // add catalog routes to the middleware chain
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
