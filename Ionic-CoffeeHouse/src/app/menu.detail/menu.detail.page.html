@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar color="secondary" style="text-align: right;">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu" style="color:black"></ion-back-button>
+    </ion-buttons>
+    <img src="assets/img/coffee-logo.jpg" class="sm-logo" />
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>{{theCoffee.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <img src="{{theCoffee.img}}" />
+  </ion-row>
+
+  <div class="desc">
+    {{ theCoffee.description }}
+  </div>
+
+  <ion-item class="mySelects">
+    <ion-label>Size</ion-label>
+    <ion-select [(ngModel)]="theCoffee.price">
+      <ion-select-option value="{{theCoffee.small}}">small</ion-select-option>
+      <ion-select-option value="{{theCoffee.medium}}">medium</ion-select-option>
+      <ion-select-option value="{{theCoffee.large}}">large</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item class="mySelects">
+    <ion-label>Milk</ion-label>
+    <ion-select [(ngModel)]="theCoffee.Milk">
+      <ion-select-option value="none">none</ion-select-option>
+      <ion-select-option value="whole">whole</ion-select-option>
+      <ion-select-option value="skim">skim</ion-select-option>
+      <ion-select-option value="2%">2%</ion-select-option>
+      <ion-select-option value="soy">soy</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item class="mySelects">
+    <ion-label>Whipped Cream</ion-label>
+    <ion-select [(ngModel)]="theCoffee.whip">
+      <ion-select-option value="none">none</ion-select-option>
+      <ion-select-option value="light">light whipped cream</ion-select-option>
+      <ion-select-option value="heavy">heavy whipped cream</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-row>
+    <ion-col text-center>
+      <h3>{{ theCoffee.price | currency: 'USD': true }}</h3>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <button
+        ion-button
+        outline
+        large
+        block
+        (click)="addToCart()"
+        style="width:100%;height:25% !important;padding: 5% !important;"
+      >
+        Add
+        <ion-icon name="cart"></ion-icon>
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-content>

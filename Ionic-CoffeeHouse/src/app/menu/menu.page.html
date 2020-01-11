@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="secondary" style="text-align: right;">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" style="color:black"></ion-back-button>
+    </ion-buttons>
+    <img src="assets/img/coffee-logo.jpg" class="sm-logo" />
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>Menu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let cup of myCoffee" color="secondary">
+    <img src="{{cup.img}}" />
+
+    <ion-card-content>
+      <ion-col>
+        <ion-card-title style="color:black!important;">
+          {{cup.Name}}
+        </ion-card-title>
+      </ion-col>
+      <ion-row (click)="chooseCafe(cup.id)" align-items-start>
+        <ion-col style="color:black!important;"
+          >sm:{{cup.small | currency:'USD':true}}</ion-col
+        >
+        <ion-col style="color:black!important;"
+          >md:{{cup.medium | currency:'USD':true}}</ion-col
+        >
+        <ion-col style="color:black!important;"
+          >lg:{{cup.large | currency:'USD':true}}</ion-col
+        >
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,23 @@
+ion-card {
+  position: relative;
+  text-align: center;
+}
+.card-title {
+  position: absolute;
+  top: 86%;
+  font-size: 2em;
+  width: 100%;
+  font-weight: bold;
+  color: fff;
+}
+.logo {
+  width: 40%;
+  height: 35%;
+}
+ion-toolbar {
+  text-align: center;
+}
+button {
+  width: 50%;
+  height: 40px;
+}
