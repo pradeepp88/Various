@@ -32,7 +32,7 @@
     "babel-runtime": "^6.26.0",
     "echarts": "^4.2.0-rc.2",
     "material-design-icons-iconfont": "^4.0.3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.0.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
