@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <title>CSS Descendant selectors example</title>
     <style type="text/css">
-      p span {
+      p span div {
         color: blue;
       }
     </style>
   </head>
   <body>
-    <p>Only run of <span>text within span</span> will be of different color</p>
+    <p>Only run of <span>text within <div>asdfsdf</div></span> will be of different color</p>
+    <span>some random text...</span>
   </body>
 </html>
