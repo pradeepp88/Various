@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Out</title>
+  </head>
+  <body>
+    <h1>Payment</h1>
+
+    <h2>Card Information</h2>
+    <fieldset style="width: 75%">
+      <form id="checkOutForm">
+        <div class="form-container">
+          <section>
+            <label for="CreditCardNumber">Credit Card Number</label>
+            <input
+              id="CreditCardNumber"
+              type="text"
+              value=""
+              name="CreditCardNumber"
+            />
+            <input
+              type="text"
+              name="ExpiryMonths"
+              list="Months"
+              size="15"
+              placeholder="ExpiryMonth"
+            />
+            <datalist id="Months">
+              <option value="01"></option>
+              <option value="02"></option>
+              <option value="03"></option>
+              <option value="04"></option>
+              <option value="05"></option>
+            </datalist>
+            <input
+              type="text"
+              name="ExpiryYears"
+              list="Years"
+              size="15"
+              placeholder="ExpiryYear"
+            />
+            <datalist id="Years">
+              <option value="2020"></option>
+              <option value="2021"></option>
+              <option value="2022"></option>
+              <option value="2023"></option>
+              <option value="2024"></option>
+              <option value="2025"></option>
+            </datalist>
+
+            <label for="ccv">CCV</label>
+            <input id="ccv" type="text"  name="ccv" />
+          </section>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

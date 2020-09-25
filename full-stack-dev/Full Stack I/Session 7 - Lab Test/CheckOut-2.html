@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Out</title>
+  </head>
+  <style>
+    input,
+    label {
+      display: block;
+    }
+  </style>
+  <body>
+    <h1>Payment</h1>
+
+    <fieldset style="width: 75%">
+      <h4>Credit Card</h4>
+      <hr />
+      <h4>Card Information</h4>
+      <table>
+        <tr>
+          <td>
+            <form id="checkOutForm" autocomplete="on">
+              <div class="form-container">
+          
+                  <ul>
+                    <li>
+                      <label for="CreditCardNumber">Credit Card Number</label>
+                      <input
+                        id="CreditCardNumber"
+                        type="text"
+                        value=""
+                        name="CreditCardNumber"
+                        placeholder="Enter Visa or Mastercard"
+                      />
+                    </li>
+                    <li>
+                      <table>
+                        <tr>
+                          <td>
+                            <label for="ExpiryMonth">Expiry Month</label>
+                            <input
+                              type="text"
+                              name="ExpiryMonths"
+                              list="Months"
+                              size="15"
+                            />
+                            <datalist id="Months">
+                              <option value="01"></option>
+                              <option value="02"></option>
+                              <option value="03"></option>
+                              <option value="04"></option>
+                              <option value="05"></option>
+                            </datalist>
+                          </td>
+                          <td>
+                            <label for="ExpiryYear">Expiry Year</label>
+                            <input
+                              type="text"
+                              name="ExpiryYears"
+                              list="Years"
+                              size="15"
+                            />
+                            <datalist id="Years">
+                              <option value="2020"></option>
+                              <option value="2021"></option>
+                              <option value="2022"></option>
+                              <option value="2023"></option>
+                              <option value="2024"></option>
+                              <option value="2025"></option>
+                            </datalist>
+                          </td>
+                        </tr>
+                      </table>
+                    </li>
+                    <li>
+                      <table>
+                        <tr>
+                          <td>
+                            <label for="ccv">CCV</label>
+                            <input id="ccv" type="text" value="" name="ccv" />
+                          </td>
+                          <td>
+                            <span
+                              >This 3 or 4 digit code is on the back or front of
+                              your card.</span
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </li>
+                  </ul>
+              </div>
+            </form>
+          </td>
+          <td>
+            <section>
+              <table>
+                <tr>
+                  <td><h3>Order Summary</h3></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><label>Product Subtotal</label></td>
+                  <td>$32.34</td>
+                </tr>
+                <tr>
+                  <td><label>Estimated Shipping</label></td>
+                  <td>$4.99</td>
+                </tr>
+                <tr>
+                  <td><label>Estimated Taxes</label></td>
+                  <td>$4.85</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><hr /></td>
+                </tr>
+                <tr>
+                  <td><label>Estimated Total</label></td>
+                  <td>$42.18</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><button>Continue</button></td>
+                </tr>
+              </table>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>

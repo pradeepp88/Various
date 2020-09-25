@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Out</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    input,
+    label {
+      display: block;
+    }
+    input {
+      font-family: Human BBY, Arial, sans-serif;
+      font-weight: 300;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 14px;
+      line-height: 20px;
+      height: 48px;
+      padding: 12px;
+      border: 1px solid #adadad;
+      border-radius: 2px;
+    }
+    label {
+      color: #1d252c;
+      font-size: 14px;
+      line-height: 20px;
+      display: block;
+      margin: 0 0 5px;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    .block-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .continue-button {
+      width: 100%;
+      font-weight: bold;
+      background-color: #ffce00;
+      height: 40px;
+      border: none;
+    }
+    .help-text {
+      font-size: small;
+      padding-top: 15px;
+      padding-left: 10px;
+    }
+  </style>
+  <body>
+    <div style="background-color: #f4f6f9; width: 80%; padding-bottom: 25px">
+      <h1>Payment</h1>
+
+      <fieldset
+        style="width: 90%; background-color: white; margin: 10px 10px 10px 10px"
+      >
+        <p class="block-title">
+          <label class="section-title">Credit Card</label>
+        </p>
+        <hr />
+        <p class="block-title">
+          <label class="section-title">Card Information</label>
+        </p>
+        <table>
+          <tr>
+            <!-- Credit Card Column-->
+            <td style="width: 50%">
+              <form id="checkOutForm" autocomplete="on">
+                <div class="form-container">
+                  <section>
+                    <ul>
+                      <li>
+                        <label for="CreditCardNumber">Credit Card Number</label>
+                        <input
+                          id="CreditCardNumber"
+                          type="text"
+                          value=""
+                          name="CreditCardNumber"
+                        />
+                      </li>
+                      <li>
+                        <table>
+                          <tr>
+                            <td>
+                              <label for="ExpiryMonth">Expiry Month</label>
+                              <input
+                                type="text"
+                                name="ExpiryMonths"
+                                list="Months"
+                                size="15"
+                              />
+                              <datalist id="Months">
+                                <option value="01"></option>
+                                <option value="02"></option>
+                                <option value="03"></option>
+                                <option value="04"></option>
+                                <option value="05"></option>
+                              </datalist>
+                            </td>
+                            <td>
+                              <label for="ExpiryYear">Expiry Year</label>
+                              <input
+                                type="text"
+                                name="ExpiryYears"
+                                list="Years"
+                                size="15"
+                              />
+                              <datalist id="Years">
+                                <option value="2020"></option>
+                                <option value="2021"></option>
+                                <option value="2022"></option>
+                                <option value="2023"></option>
+                                <option value="2024"></option>
+                                <option value="2025"></option>
+                              </datalist>
+                            </td>
+                          </tr>
+                        </table>
+                      </li>
+                      <li>
+                        <table>
+                          <tr>
+                            <td>
+                              <label for="ccv">CCV</label>
+                              <input id="ccv" type="text" value="" name="ccv" />
+                            </td>
+                            <td>
+                              <label class="help-text"
+                                >This 3 or 4 digit code is on the back or front
+                                of your card.
+                              </label>
+                            </td>
+                          </tr>
+                        </table>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </form>
+            </td>
+            <!-- Order Summary Column -->
+            <td style="width: 50%; padding-left: 120px">
+              <section>
+                <table>
+                  <tr>
+                    <td><h3>Order Summary</h3></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><label>Product Subtotal</label></td>
+                    <td>$32.34</td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Shipping</label></td>
+                    <td>$4.99</td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Taxes</label></td>
+                    <td>$4.85</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><hr /></td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Total</label></td>
+                    <td>$42.18</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <button class="continue-button">Continue</button>
+                    </td>
+                  </tr>
+                </table>
+              </section>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+  </body>
+</html>
