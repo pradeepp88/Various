@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      function DisplayMessage(message) {
+        
+        if (message === null) {
+          console.log("message is null");
+        } else if (message === "") {
+          console.log("message is empty");
+        } else {
+          console.log(message);
+        }
+      }
+
+      // invoke methods
+      DisplayMessage(null);
+      DisplayMessage("");
+      DisplayMessage(false);
+      DisplayMessage("This is a test");
+      DisplayMessage("pizza!");
+      DisplayMessage("and wings!");
+
+    </script>
+    <p>JS Conditionals - Ex 2</p>
+  </body>
+</html>
