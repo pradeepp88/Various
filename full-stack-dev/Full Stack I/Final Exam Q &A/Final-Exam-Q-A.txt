@@ -1,0 +1,423 @@
+
+
+1. What year was HTML developed? 
+
+a. 2000
+b. 1990 *
+c. 1998
+
+2. Which of the following is an example of relative path?
+
+a. main.html *
+b. http://www.main.com
+c. none of above
+
+3. Which of the following is an example of absoute path?
+
+a. main.html 
+b. http://www.main.com? *
+c. none of above
+
+
+4. What technologies would be used in Full Stack Web Development?
+
+a. Frontend technologies only
+b. Backend technologies only
+c. Both Frontend and Backend technologies *
+
+
+5. What is the atonomy of an HTML element?
+
+a. A tag element and content
+b. Open tag, content, closing tag * 
+c. content, tag element
+
+6. HTML tags can be written in which way?
+a. uppercase
+b. lowercase
+c. they are case insensitive *  
+
+7. Which are names of Web Browsers?
+
+a. Safari, Edge, Firefox *
+b. Grunt, Bower, Opera
+c. Ant, Maven, Tourtise
+
+8. What is the correct way to include a Stylesheet?
+
+a. <a href="stylesheet.css" rel="stylesheet">
+b. <link href="stylesheet.css" rel="stylesheet"> *
+c. <script href="stylesheet.css" rel="stylesheet">
+
+9. What were the parts of the CSS box model?
+
+a. content, padding, border, margin *
+b. content, interior, exterior, border
+c. area, perimeter, border, padding
+
+10. What is the preferred way of including CSS in your pages?
+
+a. Place all your style in the head of each page 
+b. Put your styles on elements themselves
+c. Use an external style sheet and link to that file from your page *
+
+11. What type of CSS selector are we using here ".coffeetime"?
+
+a. Tag name  
+b. Element ID 
+c. Class name *
+
+
+12, What is a function in JavaScript?
+
+a. A statement that evaluates an expression
+b. Code that allows us to write loops
+c. A block of organized, reusable code that performs a single action *
+
+
+13. What built-in functions allow you to convert a string to integer?
+
+a. parseString()
+b. toInteger()
+c. toInt()
+d. parseInt() *
+
+
+14. What is a parameter in JavaScript?
+
+a. The same as an argument
+b. A variable that we listed as part of a function definition *
+c. The value returned from a function
+d. A variable that is passed when a function is invoked
+
+15. Which of the following will set the background color of the body to black?
+
+a. body { background-color=black; }
+b. body = { color=black }
+c. body { background-color: black; } *
+
+16. What does the Cascading mean in CSS?
+
+a. Style nested HTML elements in the HTML
+b. Different levels of style sheets applied to HTML *
+c. CSS adds top to bottom variable scope to HTML
+
+17. What does a CSS ruleset consist of?
+
+a. open selector, style, close selector
+b. selector and a declaration block *
+c. named function and paramaters
+
+
+18. How do you define a comment in CSS
+
+a. // comment //
+b. /* comment */ *
+c. <!-- comment --> 
+
+
+19. Selector rulesets must be wrapped in ?
+
+a. parenthesis ()
+b. angle brackets <>
+c. curly braces { } *
+
+20. What is the syntax to select all h1 and h2 elements on a page?
+
+a. h1 h2
+b. none
+c. h1 > h2
+d. h1, h2 *
+
+21. What is the value of result in the following?
+
+var result =  100 + "200"
+
+a. NaN
+b. 300
+c. 100200 *
+d. error
+
+////
+
+22. What is output of the following?
+
+function greeting() {
+  var message = "Hello";
+}
+
+greeting();
+console.log(message);
+
+a. Hello
+b. Empty
+c. ReferenceError: message not defined *
+d. undefined
+
+
+
+23. What is the console output of the following code block?
+
+var name;
+
+function printName() {
+  name="Jane";
+  console.log(name);
+}
+
+printName();
+
+a. Jane *
+b. Mary
+c. Empty
+d. None
+
+
+
+24. How would you apply a red color to the text in the paragraph html element in the following markup?
+
+<div><p>This should be red</p></div>
+
+a. .red-text { color: red; }
+b. #p { color: red; }
+c. p { color: red; }  *
+
+
+25. How would you add a style to given the span html element a red background and white color for the text?
+
+  <span>Lorem ipsum </span> 
+
+a. .span { background-color: red; forground-color: white; }
+b.  span { background: red; forground: white; }
+c. span { background-color: red; color: white; } *
+
+
+26. What will be the output of the JavaScript syntax?
+
+ console.log(Hello!);
+
+a. "Hello!"
+b. true
+c. Hello is not defined  *
+
+27. Given the following JavaScript what would be the output?
+var a = 5;
+var b = 100;
+
+if(a > c) {
+console.log("greater than");
+else {
+  console.log("less than");
+}
+
+a. greater than
+b. less than
+c. undefined 
+d. error *
+
+28. How would you invoke the following JavaScript function?
+
+ function HelloWorld() {
+        console.log("Hello World");
+      }
+
+a. invoke(HelloWorld);
+b. HelloWorld(); *
+c. (HelloWorld);
+
+
+29. What would be output of the following JavaScript?
+!(null && false)
+
+a. undefined
+b. false
+c. true *
+
+30. How would call window prompt method and assignment it to a variable?
+
+a. var name= prompt("Enter name");  *
+b. name(prompt("Enter name"));
+c. function prompt(name) { return name; }
+
+31. Given the following JavaScript how to invoke a function with argument of 10?
+
+function divideByFive(x) {
+  return x / 5;
+}
+
+a. divideByFive.10;
+b. divideByFive()=10;
+c. divideByFive(10);  *
+
+32. What syntax will allow for multiple functional parameters?
+
+a. function (x, y, z) *
+b. function (x & y & x)
+c. function ( * )
+
+33. Which of the following JavaScript is a Function declaration?
+
+a. function doStuff() { } *
+b. function() { }
+c. var doStuff = function() { }
+
+34. Which of the following JavaScript is a Function expression?
+
+a. function doStuff() { } 
+b. function() { }
+c. var doStuff = function() { }  *
+
+35. Which of the following JavaScript is a Anonymous function?
+
+a. function doStuff() { } 
+b. function() { } *
+c. var doStuff = function() { }  
+
+36. What would be the result of the following JavaScript syntax?
+(undefined == null)
+
+a. false
+b. true  *
+c. undefined
+
+37. What would be the result of the following JavaScript syntax?
+
+(Math.PI > 3.1)
+
+a. true *
+b. false 
+c. null
+
+38. What would be the result of the following JavaScript syntax?
+
+Math.floor(Math.PI) > 3.1
+
+a. true
+b. false *
+c. error
+
+39. What would be the result of the following JavaScript syntax?
+
+Math.bigInt(Math.PI) > 3.1
+
+a. true
+b. false 
+c. error *
+
+40. What would be the result of the following JavaScript syntax?
+Number(Math.PI.toFixed(2))
+a. "3.14"  
+b. 3.14 *
+c. 314
+
+41. What would be the result of the following JavaScript syntax?
+isNaN("undefined")
+
+a. true  *
+b. false
+c. error
+
+42. What would be the result of the following JavaScript syntax?
+ !isNaN(null)
+
+a. true *
+b. false
+c. error
+
+
+
+
+43. What would be the result of the following JavaScript syntax?
+
+ Integer.isNaN(500)
+
+a. true (Black Board default)
+b. false
+c. error *
+
+44. What would be the output of the following JavaScript syntax?
+
+var a = 0;
+
+function plusFive(num1) {
+   var a = num1 + 5;
+}
+
+plusFive(10);
+console.log(a);
+
+a. 10
+b. 0 *
+c. 15
+
+45. What would be the output of the following JavaScript syntax?
+
+var a = 0;
+
+function plusFive(num1) {
+   a = num1 + 5;
+}
+
+plusFive(10);
+console.log(a);
+
+a. 10
+b. 0
+c. 15 *
+
+
+46. What attribute is missing in the follow style to give a divider element a black border?
+
+ div { border: 1px black; }
+
+a. 100%
+b. solid  *
+c. width: 1px;
+
+47. What does HTML stand for?
+
+a. Hyper Text Markup Language *
+b. Home Tool Markup Language
+c. Hyperlink and Text Markup Language
+
+48. Who is making the Web standards?
+
+a. The World Wide Web Consortium *
+b. Goolge
+c. Microsoft
+d. Mozilla
+
+49. What is the correct HTML element for the largest heading?
+
+a. <heading>  *
+b. <h1>
+c. <h6>
+d. <head>
+
+50. Choose the correct HTML element to defined emphasized text
+
+a. <em> *
+b. <italic>
+c. <i>
+
+51. Which of these elements are all <table> elements?
+
+a. <table><head><tfoot>
+b. <table><tr><tt>
+c. <thead><body><tr>
+d. <table><tr><td>  *
+
+52. What is the correct HTML for marking a text input field?
+
+a. <textinput type="text">
+b. <input type="text"> *
+c. <textfiled>
+
+53. What is the correct HTML for making a drop-down list?
+
+a. <select> *
+b. <list>
+c. <input type="dropdown">
+
+
+
