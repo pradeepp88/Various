@@ -1,0 +1,31 @@
+
+1. What is the correct expression for a for loop?
+
+a. for (start, condition, stop) *
+b. foreach(start, condition, stop)
+c. forin(start, condition, stop)
+
+2. What is the correct operators to increases or decrease a counter in loops?
+
+a. increment/decrement  *
+b. add/subtract
+c. increase/decrease
+
+3. When will a while loop stop executing?
+
+a. When the test condition evaluates to true  
+b. When the counter is less than the index
+c. When the program runs out of memory   *
+
+
+4. When are do-while loops best used?
+
+a. when getting input from the user  *
+b. when deleting the database
+c. when executing a DOS attack
+
+5. What does the continue statement do?
+
+a. skips the current iteration of the loops *
+b. exits the loop
+c. starts another new loop

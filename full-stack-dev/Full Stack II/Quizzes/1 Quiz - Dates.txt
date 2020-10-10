@@ -1,0 +1,36 @@
+1. How would you create a new Date object?
+
+const date = Date();
+
+const date = new Date(); **
+
+cost date = function Date();  
+
+2. How would you get the time elapse since Epoch time?
+
+Date.now()  **
+
+Date.Epoch()
+
+Date.Time()
+
+3. What does GMT refer to in Time Zones?
+
+Greenwhich Mean Time **
+
+General Mean Time
+
+Good Meat Time
+
+4. What is the syntax to create a new JavaScript string?
+
+const str = new String("Yes"); **
+const str = String.Add("Yes");
+const string = function String("Yes")
+
+5. How to get the index of a string?
+
+string.indexOf("fox") **
+string.Index("fox")
+index.string("fox")
+
