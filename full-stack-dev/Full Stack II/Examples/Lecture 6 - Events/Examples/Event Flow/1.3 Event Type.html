@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Event Demo</title>
+</head>
+<body>
+    <div id="container">
+        <button id='btn'>Click Me!</button>
+
+    </div>
+    <script>
+        let btn = document.querySelector('#btn');
+
+        btn.addEventListener('click', function(event) {
+            console.log(event.type);
+        });
+    </script>
+</body>
