@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>JavaScript Window Object Properties</title>
+</head>
+<body>
+
+<h3>JavaScript Window Object Properties Example</h3>
+<iframe src="http://google.ca"></iframe>
+<iframe src="http://telsa.com"></iframe>
+<iframe src="http://georgebrown.com"></iframe>
+<script type="text/javascript">
+	for(var i=0; i<frames.length; i++)
+	{
+		frames[i].location = "http://nba.com"
+	}	
+
+var myWindow;
+
+function openRequestedPopup() {
+
+	open("https://www.netflix.com/", "Netflix_WindowName");
+}
+
+openRequestedPopup();
+
+</script>
+
+</body>
+</html>

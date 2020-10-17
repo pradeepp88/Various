@@ -1,0 +1,29 @@
+1. What are the two main models in the JS Event Flow?
+
+a. event bubbling and event capturing *
+b. page loading and unloading
+c. postback and rendering
+
+2. Which method allows you to prevent the default behavior of an event?
+
+a. preventDefault() *
+b. stopPropagation()
+c. eventPrevent()
+
+3. Which method allows you to prevent further propagation of the current event?
+
+a. stopPropagation() *
+b. preventDefault()
+c. preventPropagation()
+
+4. What are the events get fired when you use the mouse to interact with page elements?
+
+a. mousedown, mouseup, click *
+b. mousein, mouseout, click
+c. mouseload, mouseunload, click
+
+5. What are the events that get fired when you interact with keyboard with page elements?
+
+a. keydown, keyup, keypress *
+b. keyin, keyout, keypress
+c. keydown, keyup, click

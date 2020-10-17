@@ -1,0 +1,31 @@
+Core/SRE Team = agatha, kc, dan, sergey, jim, sonia
+
+1. How do you access the parent node of a node in the DOM tree?
+
+a. node.parentNode *
+b. parent.node
+c. node.getParentNode()
+
+2. How do you a list of child elements from a parent DOM element?
+
+a. parentElement.childNodes *
+b. parentNode.childNodes
+c. node.childElements
+
+3. How would you add a node to the end of a list of child nodes of a parent node?
+
+a. parentNode.appendChild(childNode) *
+b. parentElement.appendChild(childElement)
+b. parentElement.append(node)
+
+4. How to get the inner HTML of a DOM element?
+
+a. element.innerHTML
+b. element.textContent
+c. element.getInnerHTML()
+
+5. How would remove a child node from the parent DOM node?
+
+a. parentNode.removeChild(childNode) *
+b. parentElement.removeChild(childNode)
+c. parentNode.replaceChild(newChild, oldChild)

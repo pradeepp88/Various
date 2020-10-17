@@ -1,0 +1,30 @@
+
+1. What is the window properties to determine if it is full screen mode?
+
+a. window.fullScreen  *
+b. window.isFullScreen
+c. window.expandedSize
+
+2. Which object will return information on the current page address (URL)?
+
+a. window.location *
+b. window.url
+c. window.pageAddress
+
+3. Which method returns all elements with a specified name?
+
+a. document.getElementsByName(name) *
+b. document.getElementsByTagName(name)
+c. window.getElementsByTagName(name)
+
+4. Which method returns the first element that matches a CSS selector?
+
+a. document.querySelector() *
+b. document.querySelectorAll()
+c. window.querySelector()
+
+5. Which method returns the all the elements that matches a CSS selector?
+
+a. document.querySelectorAll() *
+b. window.querySelectorAll()
+c. document.querySelector()
