@@ -1,0 +1,30 @@
+
+1. What is an example of bracket notation when accessing Object properties?
+
+a. object['property']
+b. object{property}
+c. object.property
+
+2. How do you check if a property exists in an Object?
+
+a. use the in operator
+b. use the exist operator
+c. use the dot operator
+
+3. What are two patterns for creating JavaScript objects?
+
+a. factory, constructor
+b. prototype, polymorphism
+c. interface, instantiation
+
+4. What are two pillars of OOP?
+
+a. encapsulation, abstraction
+b. prototype, polymorphism
+c. procedure, goto statements
+
+5. Which method would you use to create a copy of an Object?
+
+a. assign()
+b. create()
+c. copy()

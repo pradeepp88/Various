@@ -1,0 +1,40 @@
+What is Vanilla JS?
+
+
+1. Plain JavaScript without any additional libraries *
+
+2. JavaScript within a JavaScript framework
+
+3. A delicious gelato flavored with a hint of vanilla
+
+What is another name for ES6?
+
+1. ECMAScript2015  *
+
+2. JavaScript 6
+
+3. ES2015
+
+Which of the following is an example of some new ES6 syntax?
+
+1. let, MapSet, export *
+2. var, function(), for..in
+3. tuple, elvis operator, generic
+
+
+which of the following are some existing ES5 array functions?
+
+1. filter, map, reduce *
+2. asset, except, break
+3. entries, find, findIndex
+
+
+Interface is a new ES6 feature?
+
+1. False *
+2. True
+
+
+
+
+

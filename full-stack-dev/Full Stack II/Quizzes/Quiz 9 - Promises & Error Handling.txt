@@ -1,0 +1,29 @@
+1. What is the construct to allow us to handle runtime errors in JS?
+
+a. try..catch  *
+b. throw
+c. error
+
+2. What properties do Error objects have?
+
+a. message, name, stack *
+b. type, name, message
+c. exception, id, type
+
+3. What try..catch construct will run in all cases?
+
+a. finally *
+b. error
+c. exception
+
+4. What are the states of a Promise?
+
+a. pending, resolved, rejected  *
+b. waiting, success, failure
+c. waiting, completed, incomplete
+
+5. What method allows for Promise chaining?
+
+a. then() *
+b. next()
+c. catch()

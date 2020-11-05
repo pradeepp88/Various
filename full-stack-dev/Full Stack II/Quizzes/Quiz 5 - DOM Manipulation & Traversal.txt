@@ -1,4 +1,4 @@
-Core/SRE Team = agatha, kc, dan, sergey, jim, sonia
+
 
 1. How do you access the parent node of a node in the DOM tree?
 
