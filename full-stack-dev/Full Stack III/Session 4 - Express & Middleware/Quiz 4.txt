@@ -1,0 +1,34 @@
+1. What is in a Response Header?
+
+a.  Status, Header, Body  **
+b: Status, JSON, Response Code
+c: HTTP, Footer, Body
+
+2. What are some HTTP verbs used in REST API?
+
+
+a. GET, POST, PATCH  **
+b. GET, PUT, FILTER
+c. DODGE, DIP, DIVE
+
+
+3. What is the name of a template engine that works with Express?
+
+a: Pug  *
+b: Marmalade
+c: Nest
+d: Mongoose
+
+4. What is a networking protocol that allows two or more computers to comminicate?
+
+a: TCP/IP  *
+b: HTTP/IP
+c: UDP/IP
+
+
+5. What protocol is a secure web protocol?
+
+a. HTTPS *
+b. HTTP
+c. TCP/IP
+c. UDP/IP

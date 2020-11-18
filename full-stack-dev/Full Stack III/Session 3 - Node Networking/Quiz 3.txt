@@ -1,0 +1,45 @@
+1. How is the net module different than the http module?
+
+a: It creates a server that only knows about TCP connections  *
+
+b: It creates a server that deals with http requests
+
+c: It creates a server that does both
+
+
+2. What does the Web Socket protocol do?
+
+a: It allows for communication over a single TCP socket *
+
+b: It allows for HTTP Request and Responses
+
+c: It allows UDP communication
+
+
+
+3. The Event Loop allows Node.js to do which of the following?
+
+a: To perform asynchronous non-blocking I/O operations. *
+
+b: Expose synchronous web services for javascript
+
+c: Download Node packages from NPM registry
+
+
+
+4. An event is like a broadcast, while a callback is like a
+
+a: handshake  *
+
+b: receiver
+
+c: refrigerator
+
+d: emitter
+
+5. How do you clear a JS timeout?
+
+a. clearTimeout()  *
+b. clearInterval()
+c. setTimeout(null)
+d. clearJsTimeout()
