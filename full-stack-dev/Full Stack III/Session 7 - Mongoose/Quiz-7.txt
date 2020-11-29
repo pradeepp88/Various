@@ -1,0 +1,30 @@
+Mongoose is a middle package that works like which of the following?
+
+a: Object Document Mapper  *
+b: Object Relational Mapper
+c: Dependency Auto Injector
+
+How many nested schemas can a Mongoose schema have?
+
+a: Multiple levels. *
+b: Only one level.
+
+MongoDB is based on which of the following?
+
+a: Collections, Documents, Field *
+b: Tables, Rows, Columns
+c: Objects, Classes, Interfaces
+
+
+What best describes NoSQL?
+
+a: scalable, flexible, schema free *
+b: rigid, relational schema, stable
+
+
+What is mongodb not good for?
+
+A. supported well defined relationships 
+b. updating duplicate data
+c. joining collections similar to table joins
+d. all of the above  *
